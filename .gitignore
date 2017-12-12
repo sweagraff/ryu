@@ -1,0 +1,54 @@
+# changes file
+*.changes
+
+# system image
+*.image
+
+# Pharo Smalltalk Debug log file
+PharoDebug.log
+
+# Squeak Smalltalk Debug log file
+SqueakDebug.log
+
+# Monticello package cache
+/package-cache
+
+# Metacello-github cache
+/github-cache
+github-*.zip
+# Logs and databases #
+######################
+*.log
+*.log.*
+*.sql
+*.sqlite
+
+# EMACS #
+######################
+*~
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+bootstrap/*
+image/*
+src-lib/*
+runner/*
+build/*.image
+build/image\.*
+build/pharo
+build/pharo-ui
+build/pharo-vm
+build/play-cache
+build/play-stash
+build/*.log
+build/*.jpg
+build/Pharo*
+build/package-cache
+build/github-cache
+build/pharo-local
+tools/smartspace.env
+docker/key.env
