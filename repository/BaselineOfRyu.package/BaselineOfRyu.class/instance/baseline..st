@@ -4,10 +4,14 @@ baseline: spec
    <baseline>
    spec for: #common do: [
       spec
-         package: 'Ryu' with: [ spec requires: #('Teapot' 'NeoJSON' 'GeneticAlgoFramework')  ].
+         package: 'Ryu' with: [ spec requires: #('Teapot' 'NeoJSON' 'GeneticAlgoFramework' 'MLNeuralNetwork')  ].
 
 		spec package:'GeneticAlgoFramework' with:[
 			spec repository:'http://smalltalkhub.com/mc/Alidra/GeneticAlgorithmsFramework/main'.
+		].
+	
+		spec package:'MLNeuralNetwork' with:[
+			spec repository:'http://smalltalkhub.com/mc/Oleks/NeuralNetwork/main'; version:#development
 		].
 
 		spec
