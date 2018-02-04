@@ -16,5 +16,5 @@ Metacello new
 
 Metacello new
 	baseline: 'Ryu';
-	repository: 'tonel://../repository';
+	repository: 'filetree://../repository';
 	load.

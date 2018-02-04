@@ -9,9 +9,9 @@ baseline: spec
 		spec package:'GeneticAlgoFramework' with:[
 			spec repository:'http://smalltalkhub.com/mc/Alidra/GeneticAlgorithmsFramework/main'.
 		].
-	
+
 		spec package:'MLNeuralNetwork' with:[
-			spec repository:'http://smalltalkhub.com/mc/Oleks/NeuralNetwork/main'; version:#development
+			spec repository:'http://smalltalkhub.com/mc/Oleks/NeuralNetwork/main'
 		].
 
 		spec
