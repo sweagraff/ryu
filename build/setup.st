@@ -13,10 +13,6 @@ Metacello new
   repository: 'github://dionisiydk/Calypso';
   load.
 
-Metacello new
-  	baseline: 'BlockStyler';
-  	repository: 'github://maenu/BlockStyler/repository';
-  	load.
 
 Metacello new
 	baseline: 'Ryu';
