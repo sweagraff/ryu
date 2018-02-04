@@ -1,6 +1,6 @@
 baselines
 baseline: spec
-"baseline method"
+"baseline method for ryu"
    <baseline>
    spec for: #common do: [
       spec
