@@ -28,6 +28,6 @@ baseline: spec
          with: [
             spec
                className: 'ConfigurationOfTeapot';
-               version: #stable;
+               version: #development;
                repository:
                   'http://smalltalkhub.com/mc/zeroflag/Teapot/main' ]].
