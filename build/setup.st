@@ -13,7 +13,6 @@ Metacello new
   repository: 'github://dionisiydk/Calypso';
   load.
 
-
 Metacello new
 	baseline: 'Ryu';
 	repository: 'filetree://../repository';
