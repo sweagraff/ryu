@@ -4,7 +4,7 @@ baseline: spec
    <baseline>
    spec for: #common do: [
       spec
-         package: 'Ryu' with: [ spec requires: #('Teapot' 'NeoJSON' 'GeneticAlgoFramework' 'MLNeuralNetwork')  ].
+         package: 'Ryu' with: [ spec requires: #('NeoJSON' 'GeneticAlgoFramework' 'MLNeuralNetwork')  ].
 
 		spec package:'GeneticAlgoFramework' with:[
 			spec repository:'http://smalltalkhub.com/mc/Alidra/GeneticAlgorithmsFramework/main'.
@@ -21,13 +21,4 @@ baseline: spec
                className: 'ConfigurationOfNeoJSON';
                version: #stable;
                repository:
-                  'http://mc.stfx.eu/Neo' ].
-
-      spec
-         project: 'Teapot'
-         with: [
-            spec
-               className: 'ConfigurationOfTeapot';
-               version: #stable;
-               repository:
-                  'http://smalltalkhub.com/mc/zeroflag/Teapot/main' ]].
+                  'http://mc.stfx.eu/Neo' ]].
