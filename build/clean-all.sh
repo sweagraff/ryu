@@ -10,5 +10,6 @@ rm *.log
 rm Pharo.image
 rm Pharo.changes
 rm image.*
+rm *.sources
 
 echo "Directory Clean"

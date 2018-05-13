@@ -20,7 +20,8 @@ done
 
 if [[ $performDownload -eq 1 ]]; then
 	echo "Downloading latest Pharo"
-  curl get.pharo.org | bash
+  #curl get.pharo.org | bash
+  curl https://get.pharo.org/70+vm | bash
 fi
 
 ./pharo Pharo.image st setup.st --save --quit
