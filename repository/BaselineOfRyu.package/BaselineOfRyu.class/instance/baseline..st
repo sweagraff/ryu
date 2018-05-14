@@ -4,15 +4,26 @@ baseline: spec
    <baseline>
    spec for: #common do: [
       spec
-         package: 'Ryu' with: [ spec requires: #('NeoJSON' 'GeneticAlgoFramework' 'MLNeuralNetwork')  ].
+         package: 'Ryu' with: [ spec requires: #('NeoJSON' 'Teapot' 'VoyageMongo')  ].
 
-		spec package:'GeneticAlgoFramework' with:[
-			spec repository:'http://smalltalkhub.com/mc/Alidra/GeneticAlgorithmsFramework/main'.
-		].
+		spec
+			project: 'VoyageMongo'
+			with:[
+				spec
+               className: 'ConfigurationOfVoyageMongo';
+               version: #stable;
+               repository:
+                  'github://pharo-nosql/voyage/mc'
+				].
 
-		spec package:'MLNeuralNetwork' with:[
-			spec repository:'http://smalltalkhub.com/mc/Oleks/NeuralNetwork/main'
-		].
+		spec
+         project: 'Teapot'
+         with: [ 
+            spec
+               className: 'ConfigurationOfTeapot';
+               version: #stable;
+               repository:
+                  'http://smalltalkhub.com/mc/zeroflag/Teapot/main' ].
 
 		spec
          project: 'NeoJSON'
